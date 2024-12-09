@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+}
+
+.body-container {
+    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo-section {
+    width: 100vw;
+    height: 71px;
+    margin-left: 16px;
+}
+.logo {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 79px;
+}
+.vitamins-background-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #e2f5fb;
+    padding: 10px 20px 80px 20px;
+    display: flex;
+    flex-direction:column;
+    
+} 
+.vitamins-main-heading {
+    text-align: center;
+    height: 211px;
+    font-weight: 700;
+    color: #003569;
+    font-size: 80px;
+}
+.vitamins-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    height:250px; 
+    margin-left: 90px;
+    padding: 10px 70px 10px 70px;
+} 
+.vitamins-container-heading {
+    font-size: 15px;
+    color: #727272;
+    font-weight: 500;
+    width: 270px;
+    height: 25px;
+    top: 20px;
+}
+.vitamins-paragraph {
+    font-size: 25px;
+    color: #17414f;
+    font-weight: 500;
+    top: 70px;
+    width: 270px;
+    font-weight: 500;
+}
+.explore-button {
+    width: 180px; 
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #17414f;
+    color: white;
+
+}
+.rectangle {
+    height: 230px;
+    width: 380px;
+    top: -450px;
+    left: 470px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    background-color: #ffe9b5;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+.medicine-bottle {
+    height: 220px;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: flex-start;
+    margin-top: -80px;
+}
+.capsule {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+.item-card-container {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 80px;
+}
+.item-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.item-heading {
+    font-size: 15px;
+    font-weight: 500;
+    color: #17414F;
+}
+.item-description {
+    font-size: 10px;
+    font-weight: 500;
+    color: #727272;
+    margin-top: 5px;
+    width: 150px;
+}
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 1100px;
+    background-color: #17414F;
+    border-radius: 25px;
+    margin-top: -100px;
+    padding: 20px 20px 20px 20px ;
+
+}
+
+.feature-container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-left: 110px ;
+}
+.feature-image-background {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature-image {
+    height: 40px;
+    width: 40px;
+}
+.feature-heading {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.feature-description {
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 5px;
+    width: 200px;
+    text-align: center;
+}
+.below-container {
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.ingredients-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 1150px;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.ingredients-card-container-one {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 300px;
+}
+.ingredients {
+    color: #003569;
+    font-size: 10px;
+    font-weight: bold;
+}
+.ingredients-heading {
+    margin-top: 10px;
+    color: #17414F;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ingredients-card-container-description {
+    width: 360px;
+    margin-top: 15px;
+    color: #727272;
+    font-size: 10px;
+    font-weight: 500;
+}
+.vitamins-card-container {
+    height: 130px;
+    width: 290px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vitamin-name {
+    color: #2D3F59;
+    font-size: 13px;
+    font-weight: bold;
+}
+.vitamin-description {
+    margin-top: 11px;
+    color: #727272;
+    font-weight: bold;
+}
+
+.see-more {
+    color: #003569;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.one {
+    background-image: url('vitaminc_image.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two {
+    background-image: url('vitaminb3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three {
+    background-image: url('magnesium.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -120px;
+    margin-left: 0px;
+}
+.four {
+    background-image: url('acid.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -120px;
+}
+.five {
+    background-image: url('lacto.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -120px;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    margin-top: -120px;
+}
+.boxes-color {
+    height: 160px;
+    width: 90px;
+}
+.blogs-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 95vw;
+    margin-left: 15px;
+}
+.our-blog {
+    text-align: center;
+    color: #003569;
+    font-size: 12px;
+    font-weight: bold;
+}
+.latest-news {
+    text-align: center;
+    color: #17414F;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.blog-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.blog-card {
+    height: 500px;
+    width: 20vw;
+    margin: 10px 10px 10px 10px;
+}
+.blog-item-big {
+    height: 300px;
+    width: 17vw;
+    padding-top: 20px;
+}
+.blog-item-small {
+    margin-top: 10px;
+    height: 120px;
+    width: 17vw;
+    padding-top: 20px;
+}
+.blog-big-one {
+    background-image: url('turmeric.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 10px 0px 10px 0px ;
+}
+.blog-small-one {
+    background-image: url('capusle_hands.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.badge {
+    background-color: #003569;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 7px;
+    padding: 5px 20px 5px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 30px;
+    margin-left: -10px;
+}
+.blog-description {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 30px;
+    margin-top: 15px;
+    width: 200px ;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 15px 20px 15px 20px ;
+    background-color: #17414F;
+    width: 100vw;
+
+}
+.cotact-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 100px;
+    
+    
+}
+.contact-details-card-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #215D72;
+    padding: 10px 10px 10px 20px;
+    border-radius: 15px;
+    width: 250px;
+    margin-left: 70px;
+
+}
+.cotact-details-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+}
+.contact-description {
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-value {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.footer-logo-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-top: 30px;
+
+}
+.footer-logo {
+    background-color: #ffffff;
+    
+}
+.footer-logo-description {
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 110px;
+    width: 500px;
+    line-height: 25px;
+}
+.address {
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;   
+    margin-left: 170px;
+    margin-top: 20px;
+}
